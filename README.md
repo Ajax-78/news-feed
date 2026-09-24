@@ -22,5 +22,8 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## SCREENSHORT of NEWS-FEED
 
+<img width="887" height="417" alt="image" src="https://github.com/user-attachments/assets/f9abd488-7a7d-4881-9ea7-f9bf22ea71b5" />
+
+
 <img width="945" height="395" alt="news feed" src="https://github.com/user-attachments/assets/a32ebf04-47d9-4096-a356-6368df243be8" />
 
