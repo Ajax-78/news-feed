@@ -22,7 +22,7 @@ const NewsBlogIntegration = ({ children }) => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        const apiKey = "af418483-cb6e-4a99-8699-bb9419436480";
+        const apiKey = "44f31739-3b7e-4b0f-98c8-029e7a0ec414";
         const queryParams = new URLSearchParams({
           "api-key": apiKey,
           q: category,
@@ -50,7 +50,7 @@ const NewsBlogIntegration = ({ children }) => {
   }, [category, authorFilter, dateRange, typeFilter]);
 
   return (
-    <div className="h-full p-4">
+    <div className="h-full p-4 bg-black">
       {/* Sidebar Toggle Button */}
       <div className="flex flex-row justify-between">
         <div className=" p-1">
@@ -60,7 +60,7 @@ const NewsBlogIntegration = ({ children }) => {
         </div>
 
         <div className="flex flex-row justify-between">
-          <h1 className=" text-2xl font-bold">
+          <h1 className=" text-gray-200 text-2xl font-bold">
             Business Articles from The Guardian
           </h1>
         </div>
@@ -173,7 +173,7 @@ const NewsBlogIntegration = ({ children }) => {
                     rel="noopener noreferrer"
                     className="block"
                   >
-                    <h3 className="text-lg font-semibold hover:text-blue-400">
+                    <h3 className="text-lg text-gray-200 font-semibold hover:text-blue-400">
                       {article.webTitle}
                     </h3>
                   </a>
