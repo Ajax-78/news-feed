@@ -60,7 +60,7 @@ const NewsBlogIntegration = ({ children }) => {
         </div>
 
         <div className="flex flex-row justify-between">
-          <h1 className="text-2xl font-bold">
+          <h1 className=" text-2xl font-bold">
             Business Articles from The Guardian
           </h1>
         </div>
